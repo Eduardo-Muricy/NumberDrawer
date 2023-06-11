@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    
+}
+body{
+    
+    background-color: black;
+}
+
+.container{
+display: flex;
+justify-content: center;
+margin-top: 156px;
+}
+
+.paragrafo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #FFFFFF;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 62px;
+    margin-bottom: 50px;
+}
+input{
+    width: 342px;
+height: 74px;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+color: #FFFFFF;
+background: rgba(255, 255, 255, 0.25);
+border: 1px solid rgba(255, 255, 255, 0.2);
+border-radius: 14px;
+border: none;
+}
+
+.anuncio{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.numero{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+button{
+    width: 342px;
+height: 72px;
+background: #AEC346;
+box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
+border-radius: 10px;
+font-weight: 700;
+color: #FFFFFF;
+font-size: 36px;
+line-height: 2px;
+border: none;
+}
